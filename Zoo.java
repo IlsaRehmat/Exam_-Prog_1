@@ -10,16 +10,12 @@ public class Zoo{
 
 private ArrayList<Bird> zooBirds;
 public int countBlueBirds(){
-        // int blueCount=0;
-        // for(Bird bird: zooBirds){
-            // if(bird.getColor().equals("blue")){
-                // blueCount++;
-            // }
-            // else {
-                // return blueCount;
-            // }
-        // }
-        return 0;
-
-    }   
+        int blueCount=0;
+        for(Bird bird: zooBirds){
+            if(bird.getColor().equals("blue")){
+                blueCount++;
+            }
+        }
+        return blueCount;
+  }      
 }

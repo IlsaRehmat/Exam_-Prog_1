@@ -8,7 +8,7 @@
 public class AgeCalculator
 {
     private int currentYear = 2025;
-    public void checkDriving(int birthYear){
+    public int checkDriving(int birthYear){
         int age = 2025-birthYear;
         System.out.println("Age:"+ age);
         if(age >= 16){
@@ -17,5 +17,6 @@ public class AgeCalculator
         else{
            System.out.println("Wait"+(16-age)+ "years to drive");
         }
-    }
+        return age;
+}
 }

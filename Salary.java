@@ -7,9 +7,11 @@
  */
 public class Salary
 {
-    public void calculateNetPay(int hours,int wage){
-        int salary=hours*wage;
-        int netPay=(int)(salary*0.3);
+    public void calculateNetPay(int hours,double wage){
+        double salary=hours*wage;
+        double deductions = salary* 0.30;
+        double netPay= salary - deductions;
+        System.out.println("salary:" + salary + "$");
         System.out.println("Net Pay : $" + netPay);
     }
 }
