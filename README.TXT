@@ -1,7 +1,5 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all they need to know. The comments should usually include at least:
+
 ------------------------------------------------------------------------
 
 PROJECT TITLE:
@@ -10,3 +8,8 @@ VERSION or DATE:
 HOW TO START THIS PROJECT:
 AUTHORS:
 USER INSTRUCTIONS:
+
+Yes it was very helpful because i actually understood my mistakes 
+and i understood the problems better 
+so yes it will be helpful if u repeat it again.
+Thank you:)
